@@ -95,8 +95,6 @@ GEM
       activesupport (>= 5.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.11.2)
-      activesupport (>= 5.0.0)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -112,6 +110,8 @@ GEM
     msgpack (1.4.2)
     nio4r (2.5.8)
     nokogiri (1.12.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.3-x86_64-linux)
       racc (~> 1.4)
     pg (1.2.3)
     pry (0.13.1)
@@ -220,6 +220,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   autoprefixer-rails (= 10.2.5)
@@ -229,7 +230,6 @@ DEPENDENCIES
   dotenv-rails
   font-awesome-sass
   geocoder
-  jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
   pry-byebug
